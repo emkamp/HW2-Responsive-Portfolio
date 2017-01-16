@@ -5,10 +5,20 @@ body {
     background: #f5f4ed url("../images/mesh.png") repeat top left;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding-bottom: 15px;
+}
+
 h1 {
     margin: 0 auto 0 0;
     color: #fff;
     display: inline-block;
+    padding-bottom: 0;
+    text-shadow: #3a9893 -1px 2px 1px;
 }
 
 h1 a {
@@ -25,12 +35,6 @@ h1 a:hover,
 h1 a {
     text-decoration: none;
     color: inherit;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -77,10 +81,26 @@ header {
     border-right: 0 none;
 }
 
+a:link,
+a:active {
+    color: #0D8BFF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0CE89E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0CB9E8;
+    text-decoration: underline;
+}
+
 #mainContainer {
     clear: both;
     width: 960px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 85px auto;
 }
 
 section,
@@ -88,6 +108,18 @@ aside {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 0 20px 20px 20px;
+}
+
+section {
+    width: 610px;
+    margin: 0 auto 0 0;
+    float: left;
+}
+
+aside {
+    width: 230px;
+    margin: 0 0 0 auto;
+    float: right;
 }
 
 .social {
@@ -103,16 +135,33 @@ aside {
     display: inline-block;
 }
 
-section {
-    width: 610px;
-    margin: 0 auto 0 0;
-    float: left;
+.social a img {
+    border: 0 none;
 }
 
-aside {
-    width: 230px;
-    margin: 0 0 0 auto;
-    float: right;
+.articleImage {
+    width: 250px;
+    margin: 0 10px 10px 0;
+    float: left;
+    background-color: #eee;
+    padding: 5px;
+}
+
+.articleImage img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    margin: -1px auto auto -1px;
+}
+
+.articleImage p {
+    font-size: 11px;
+    color: #777;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.clear {
+    clear: both;
 }
 
 footer {
@@ -122,9 +171,9 @@ footer {
     width: 100%;
     clear: both;
     margin: 0;
-    border-top:5px solid #4aaaa5;
-    font-size:12px;
-    text-align:center;
+    border-top: 5px solid #4aaaa5;
+    font-size: 12px;
+    text-align: center;
     padding: 20px 0;
-    color:#aaa;
+    color: #999;
 }
