@@ -1,3 +1,4 @@
+html{min-height:100%; position:relative;}
 body {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -178,7 +179,7 @@ aside {
 .portfolioImage h4 {
     background-color: #4aaaa5;
     color: #fff;
-    font-weight:normal;
+    font-weight: normal;
     position: relative;
     width: 295px;
     margin: -75px auto 30px -5px;
@@ -191,10 +192,40 @@ aside {
     clear: both;
 }
 
+
+/* FORMS */
+
+fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    width: 600px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: #999;
+}
+
+button {
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 1px solid #3a9893;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
 footer {
     background-color: #666;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0;left:0;
     width: 100%;
     clear: both;
     margin: 0;
