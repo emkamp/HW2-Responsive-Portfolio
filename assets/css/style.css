@@ -7,7 +7,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
     padding-bottom: 15px;
@@ -141,8 +142,7 @@ aside {
 
 .articleImage {
     width: 250px;
-    margin: 0 10px 10px 0;
-    float: left;
+    margin: 10px;
     background-color: #eee;
     padding: 5px;
 }
@@ -158,6 +158,33 @@ aside {
     color: #777;
     text-align: center;
     margin: 5px 0;
+}
+
+.imageLeft {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.portfolioImage {
+    width: 285px;
+    margin: 0 5px 10px 5px;
+    float: left;
+}
+
+.portfolioImage p {
+    font-size: 14px;
+}
+
+.portfolioImage h4 {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-weight:normal;
+    position: relative;
+    width: 295px;
+    margin: -75px auto 30px -5px;
+    text-align: center;
+    padding: 0;
+    line-height: 50px;
 }
 
 .clear {
