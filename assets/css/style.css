@@ -1,0 +1,130 @@
+body {
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    background: #f5f4ed url("../images/mesh.png") repeat top left;
+}
+
+h1 {
+    margin: 0 auto 0 0;
+    color: #fff;
+    display: inline-block;
+}
+
+h1 a {
+    display: inline-block;
+    background-color: #4aaaa5;
+    margin: 0 auto 0 0;
+    line-height: 100px;
+    padding: 0 40px;
+}
+
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+}
+
+h3 {
+    border-bottom: 1px solid #ccc;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#headerContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#nav {
+    float: right;
+    display: inline-block;
+    margin: 0 0 0 auto;
+}
+
+#nav ul {
+    float: left;
+    line-height: 18px;
+    padding: 28px 0;
+}
+
+#nav ul li {
+    float: right;
+    list-style: none;
+    padding: 0 20px;
+    border-right: 1px solid #ddd;
+}
+
+#nav ul li:first-child {
+    border-right: 0 none;
+}
+
+#mainContainer {
+    clear: both;
+    width: 960px;
+    margin: 20px auto 0 auto;
+}
+
+section,
+aside {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0 20px 20px 20px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a:first-child {
+    margin-left: 0;
+}
+
+.social a {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+section {
+    width: 610px;
+    margin: 0 auto 0 0;
+    float: left;
+}
+
+aside {
+    width: 230px;
+    margin: 0 0 0 auto;
+    float: right;
+}
+
+footer {
+    background-color: #666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+    border-top:5px solid #4aaaa5;
+    font-size:12px;
+    text-align:center;
+    padding: 20px 0;
+    color:#aaa;
+}
