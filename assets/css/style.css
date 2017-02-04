@@ -4,6 +4,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
     background: #f5f4ed url("../images/mesh.png") repeat top left;
+    
 }
 
 h1,
@@ -190,6 +191,7 @@ aside {
 
 .clear {
     clear: both;
+    height:0;
 }
 
 
